@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+}
+.main-container{
+  max-height: 100vh;
+}
+.import-btn,.download-btn{
+  cursor: pointer;
+  padding: 8px 24px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  max-width: fit-content;
+  background-color: #FFF;
+  margin-right: 2em;
+margin-bottom: 2em;
+}
+.import:hover,.download-btn:hover{
+  color: grey;
+}
